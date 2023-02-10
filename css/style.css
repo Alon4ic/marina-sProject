@@ -1021,6 +1021,7 @@ p.first-text {
 	width: 23.3%;
 }
 .footer-link {
+	display: none;
 	width: 59px;
 	height: 60px;
 	background: #FFFFFF;
