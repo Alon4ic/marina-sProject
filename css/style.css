@@ -306,8 +306,10 @@ a {
 	row-gap: 30px;
 }
 .features-card {
+	position: relative;
+	z-index: 100;
 	padding: 65px 41px 33px 49px;
-	background: #FFFFFF;
+	background-color: #FFFFFF;
 	border: 1px solid #EAEAEA;
 }
 .fuatures-card__link {
@@ -1018,15 +1020,26 @@ p.first-text {
 .footer-top__contact {
 	width: 23.3%;
 }
+.footer-link {
+	width: 59px;
+	height: 60px;
+	background: #FFFFFF;
+	border: none;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+	border-radius: 55px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	position: fixed;
+	z-index: 199;
+	outline: none;
+	bottom: 229px;
+	right: 30px;
+}
 .footer-link:hover {
 	opacity: 0.8;
 }
 .footer-link__img {
-	position: absolute;
-	top: 310px;
-	right: 40px;
-	width: 89px;
-	height: 90px;
+	width: 30px;
+	height: 22px;
 }
 .footer-top__social {
 	margin-top: 30px;

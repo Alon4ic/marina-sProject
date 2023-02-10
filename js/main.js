@@ -51,6 +51,41 @@ function boxHandler(e) {
   }
 }
 
-document.querySelector ('.footer-link').onclick = () => {
-  window.scrollTo(pageYOffset, 0);
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
 }
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+// let scrollWidth = Math.max(
+//   document.body.scrollWidth, document.documentElement.scrollWidth,
+//   document.body.offsetWidth, document.documentElement.offsetWidth,
+//   document.body.clientWidth, document.documentElement.clientWidth
+// );
+// let scrollHeight = Math.max(
+//   document.body.scrollHeight = document.documentElement.scrollHeight,
+//   document.body.offsetHeight = document.documentElement.offsetHeight,
+//   document.body.clientHeight = document.documentElement.clientHeight
+// );
+// console.log(scrollHeight);
+// console.log(scrollWidth);
+
+
+// let scrollLink = document.querySelector('.footer-link');
+// scrollLink.addEventListener('click', setScrollBy);
+// function setScrollBy() {
+//   window.scrollBy(0, 50);
+//   const windowScrollTop = window.pageYOffset;
+//   console.log(windowScrollTop);
+// }
