@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Maria Redko is a designer based in Poland. Olena Redko is a front-end developer based in Europe.">
+	<meta property="og:description" content="Olena Redko is a front-end developer based in Rivne, Ukraine.">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/slick.css" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,19 +37,19 @@
 				<div class="header-nav">
 					<ul class="header-nav__menu">
 						<li class="header-nav__menu-item">
-							<a class="header-nav__menu-item--link" href="#">Features</a>
+							<a class="header-nav__menu-item--link" href="index.html#features">Features</a>
 						</li>
 						<li class="header-nav__menu-item">
-							<a class="header-nav__menu-item--link" href="#">About</a>
+							<a class="header-nav__menu-item--link" href="index.html#about">About</a>
 						</li>
 						<li class="header-nav__menu-item">
-							<a class="header-nav__menu-item--link" href="#">Pricing</a>
+							<a class="header-nav__menu-item--link" href="index.html#pricing">Pricing</a>
 						</li>
 						<li class="header-nav__menu-item">
-							<a class="header-nav__menu-item--link" href="#">Testimonials</a>
+							<a class="header-nav__menu-item--link" href="index.html#testimonials">Testimonials</a>
 						</li>
 						<li class="header-nav__menu-item">
-							<a class="header-nav__menu-item--link" href="#">FAQ</a>
+							<a class="header-nav__menu-item--link" href="index.html#FAQ">FAQ</a>
 						</li>
 					</ul>
 				</div>
@@ -62,29 +65,49 @@
 				</a>
 			</div>
 			<div class="header-navbar__collapse">
-				<ul id="nav" class="header-navbar-nav">
-					<li class="header-navbar__menu-item">
-						<a class="header-navbar__menu-item--link" href="#">Features</a>
-					</li>
-					<li class="header-navbar__menu-item">
-						<a class="header-navbar__menu-item--link" href="#">About</a>
-					</li>
-					<li class="header-navbar__menu-item">
-						<a class="header-navbar__menu-item--link" href="#">Pricing</a>
-					</li>
-					<li class="header-navbar__menu-item">
-						<a class="header-navbar__menu-item--link" href="#">Testimonials</a>
-					</li>
-					<li class="header-navbar__menu-item">
-						<a class="header-navbar__menu-item--link" href="#">FAQ</a>
-					</li>
-				</ul>
-			</div>
-			<div class="header-navbar__components">
-				<div class="header-navbar__components-images">
-					<img class="header-navbar__components-images_app" src="./img/Frame (1).svg" alt="App">
-					<img class="header-navbar__components-images_google" src="./img/Frame (2).svg" alt="google">
+				<div id="nav" class="header-navbar-nav">
+					<ul>
+						<li class="header-navbar__menu-item">
+							<a class="header-navbar__menu-item--link woble" href="index.html#features">Features</a>
+							<div class="transition"></div>
+						</li>
+						<li class="header-navbar__menu-item">
+							<a class="header-navbar__menu-item--link" href="index.html#about">About</a>
+						</li>
+						<li class="header-navbar__menu-item">
+							<a class="header-navbar__menu-item--link" href="index.html#pricing">Pricing</a>
+						</li>
+						<li class="header-navbar__menu-item">
+							<a class="header-navbar__menu-item--link" href="index.html#testimonials">Testimonials</a>
+						</li>
+						<li class="header-navbar__menu-item navbar-link__end">
+							<a class="header-navbar__menu-item--link" href="index.html#FAQ">FAQ</a>
+						</li>
+					</ul>
+					<div class="header-navbar__block">
+						<div class="header-navbar__block--images">
+							<img class="header-navbar__block--img1" src="./img/footer-appstore.svg" alt="App-Story">
+							<img class="header-navbar__block--img2" src="./img/footer-google.svg" alt="Google-Pay">
+						</div>
+						<div class="header-navbar__block--right">
+							<div class="header-navbar__block--contacts">
+								<a class="header-navbar__block--mail" href="mailto:support@nordvpn.com">
+									<img class="footer-top__icon" src="./img/icons/footer-mail.svg" alt="Current">support@nordvpn.com
+								</a>
+								<p class="navbar-line">p</p>
+								<a class="header-navbar__block--phone" href="tel:+8801010000000">
+									<img class="footer-top__icon" src="./img/icons/footer-phone.svg" alt="Current">+88 (0) 101 0000 000
+								</a>
+							</div>
+							<div class="header-navbar__block--social">
+								<img class="header-navbar__block--facebook" src="./img/icons/facebook.svg" alt="facebook">
+								<img class="header-navbar__block--link" src="./img/icons/link.svg" alt="Linkedin">
+								<img class="header-navbar__block--twitter" src="./img/icons/twitter.svg" alt="Twitter">
+							</div>
+						</div>
+					</div>
 				</div>
+				
 			</div>
 			<div class="header-middle">
 				<h1 class="header-middle_title">Want anything to be easy with <span
@@ -121,7 +144,7 @@
 				</div>
 			</div>
 		</div>
-		<section class="features">
+		<section id="features" class="features">
 			<img class="features-img" src="./img/SeekPng 1.svg" alt="Features">
 			<div class="container">
 				<a class="features-link" href="#">What we do</a>
@@ -234,7 +257,7 @@
 				</div>
 			</div>
 		</section>
-		<div class="about">
+		<div id="about" class="about">
 			<div class="container">
 				<div class="about-block">
 					<div class="about-block__img">
@@ -268,7 +291,7 @@
 				</div>
 			</div>
 		</div>
-		<section class="pricing">
+		<section id="pricing" class="pricing">
 			<div class="container">
 				<p class="pricing-text">
 					Choose Your Plan
@@ -408,7 +431,7 @@
 					</div>
 			</div>
 		</section>
-		<section class="testimonials">
+		<section id="testimonials" class="testimonials">
 			<div class="container">
 				<p class="testimonials-content">testimonials</p>
 				<h3 class="testimonials-title">What people are thinking about Awesome VPN</h3>
@@ -539,7 +562,7 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="accordeon">
+			<div id="FAQ" class="accordeon">
 				<div class="accordeon-block">
 					<div class="accordeon-left">
 						<p class="accordion-left__text">FAQ</p>
@@ -691,12 +714,12 @@
 							York, NY 10010
 						</a>
 						<br>
-						<a class="footer-top__contact--item" href="#">
-							<img class="footer-top__icon footer-links" src="./img/icons/footer-mail.svg" alt="Current">support@nordvpn.com
+						<a class="footer-top__contact--item" href="mailto:support@nordvpn.com">
+							<img class="footer-top__icon" src="./img/icons/footer-mail.svg" alt="Current">support@nordvpn.com
 						</a>
 						<br>
-						<a class="footer-top__contact--item" href="#">
-							<img class="footer-top__icon footer-links" src="./img/icons/footer-phone.svg" alt="Current">+88 (0) 101 0000 000
+						<a class="footer-top__contact--item" href="tel:+8801010000000">
+							<img class="footer-top__icon" src="./img/icons/footer-phone.svg" alt="Current">+88 (0) 101 0000 000
 						</a>
 					</div>
 					<div class="footer-top__social">
@@ -772,11 +795,11 @@
 							721 New York, NY 10010
 						</a>
 						<br>
-						<a class="footer-top__contact--item" href="#">
+						<a class="footer-top__contact--item" href="mailto:support@nordvpn.com">
 							<img class="footer-top__icon" src="./img/icons/footer-mail.svg" alt="Current">support@nordvpn.com
 						</a>
 						<br>
-						<a class="footer-top__contact--item" href="#">
+						<a class="footer-top__contact--item" href="tel:+8801010000000">
 							<img class="footer-top__icon" src="./img/icons/footer-phone.svg" alt="Current">+88 (0) 101 0000 000
 						</a>
 					</div>	
@@ -851,11 +874,11 @@
 							721 New York, NY 10010
 						</a>
 						<br>
-						<a class="footer-top__contact--item" href="#">
+						<a class="footer-top__contact--item" href="mailto:support@nordvpn.com">
 							<img class="footer-top__icon" src="./img/icons/footer-mail.svg" alt="Current">support@nordvpn.com
 						</a>
 						<br>
-						<a class="footer-top__contact--item" href="#">
+						<a class="footer-top__contact--item" href="tel:+8801010000000">
 							<img class="footer-top__icon" src="./img/icons/footer-phone.svg" alt="Current">+88 (0) 101 0000 000
 						</a>
 						<div class="footer-top__social">
@@ -880,7 +903,7 @@
 				</div>
 			</div>
 		</div>
-		<a footer-link href="#">
+		<a class="footer-link" href="#">
 			<img class="footer-link__img" src="./img/footer-arrow.svg" alt="Arrov">
 		</a>
 	</footer>

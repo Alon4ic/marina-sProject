@@ -50,3 +50,7 @@ function boxHandler(e) {
     currentBox.style.fontWeight = 400;
   }
 }
+
+document.querySelector ('.footer-link').onclick = () => {
+  window.scrollTo(pageYOffset, 0);
+}
